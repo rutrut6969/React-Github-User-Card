@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.card {
+  /* border: 1px solid black; */
+  padding: 1%;
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-flow: column wrap;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+}
+.cardHeader {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  width: 100%;
+}
+.headWrap {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-end;
+  height: 100%;
+}
+.github {
+  color: rgb(120, 120, 120);
+  cursor: pointer;
+}
+
+.github:hover {
+  color: rgba(0, 0, 0);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+  border-radius: 30px;
+  transition: 0.4s ease-in;
+}
+.socialmedia {
+  margin-top: 1%;
+}
+.linkd {
+  color: rgb(120, 120, 120);
+  cursor: pointer;
+}
+.linkd:hover:hover {
+  color: rgb(40, 103, 178);
+  transition: 0.4s ease-in;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+}
+.body {
+  width: 45%;
+}
+.bioBody,
+.bio,
+.company,
+.compDesc {
+  margin-top: 2%;
+}
+.body {
+  display: flex;
+  width: 100%;
+}
+.bioBody,
+.compDesc {
+  width: 100%;
+}
+.followers {
+  /* width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap; */
+}
+.followerCard {
+  border: 1px solid black;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin-top: 4%;
+}
+.followers:first-child {
+  /* margin-top: 3%; */
+}
